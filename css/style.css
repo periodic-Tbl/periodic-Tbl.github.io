@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+.boxShadow {
+	-webkit-box-shadow: 6px 6px 12px 8px #b45e8a;
+	box-shadow: 6px 5px 14px 5px #000000;
+}
+    body,td,th {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+	.bgAnimObj {
+		background: #114514;
+		-webkit-animation: bro 5s;
+        -webkit-animation-iteration-count: infinite;
+		-moz-animation: bro 5s;
+        -moz-animation-iteration-count: infinite;
+		animation: bro 5s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+	}
+
+	@-webkit-keyframes bro {
+		from {
+ 			background: #114514;
+		} 
+		to {
+ 			background: #19198a;
+		}
+	}
+
+	@-moz-keyframes bro {
+    	from {
+       		background: #114514;
+    	}
+    	to {
+       		background: #19198a;
+    	}
+	}
+	@keyframes bro {
+		from {
+			background: #114514;
+		}
+		to {
+			background: #19198a;
+		}
+	}
+.easeinAnimObj {
+	position: relative;
+	-webkit-animation-name: ease-inAnimation;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-timing-function: ease-in;
+	-moz-animation-name: ease-inAnimation;
+	-moz-animation-duration: 5s;
+	-moz-animation-timing-function: ease-in;
+	animation-name: ease-inAnimation;
+	animation-duration: 5s;
+	animation-timing-function: ease-in;
+}
+
+@-webkit-keyframes ease-inAnimation {
+	from {
+		left: -1145px;
+		top: -810px;
+	}
+	to {
+		left: 0;
+		top: 0;
+	}
+}
+@-moz-keyframes ease-inAnimation {
+	from {
+		left: 0;
+		top: -810px;
+	}
+	to {
+		left: 0;
+		top: 0;
+	}
+}
+@keyframes ease-inAnimation {
+	from {
+		left: 0;
+		top: -1919px;
+	}
+	to {
+		left: 0;
+		top: 0;
+	}
+}
+.textShadow {
+    font: bold 30px Cambria, "Times New Roman";
+    background-color: #00FF00;
+    color: transparent;
+    text-shadow: 0px 10px 8px rgba(11, 45, 14, 0.514);
+	/**/
+    -webkit-background-clip: text;
+	/**/
+    -moz-background-clip: text;
+	/**/
+    background-clip: text;
+}
+    .HisOptm{
+        font: normal 12px 
+    }
+    .bgColorHis{
+        background-color: #ffff00;
+    }
+    .bgColorPdc{
+        background-color: #FF0000;
+    }
+    .colorAbt{
+        color: #FFFFFF;
+        background-color: #000000; 
+    }
+    
+@media (max-width: 1145px){
+}
+
+
+@media ( min-width : 50px ) and (max-width : 200px ){
+}
+	
+a[href],
+input[type='submit'],
+input[type='image'],
+label[for],
+select,
+button,
+.pointer {
+    cursor: pointer;
+}
