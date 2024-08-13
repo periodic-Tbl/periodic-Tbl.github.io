@@ -45,6 +45,25 @@
 			background: #19198a;
 		}
 	}
+@keyframes news {
+		from {
+			background: #b45e8a;
+		}
+		to {
+			background: #114514;
+		}
+	}
+.newsText {
+	text-decoration-color: #114514;
+	-webkit-animation: news 5s;
+    -webkit-animation-iteration-count: infinite;
+	-moz-animation: news 5s;
+    -moz-animation-iteration-count: infinite;
+	animation: news 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 .easeinAnimObj {
 	position: relative;
 	-webkit-animation-name: ease-inAnimation;
