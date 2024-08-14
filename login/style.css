@@ -1,0 +1,22 @@
+@media (max-width:1145px){
+}
+.title{
+	
+}
+.textboxes{
+	background: #114514; 
+	align-content: center; 
+	border: none; 
+	border-bottom: medium; 
+	border-bottom-color: #b45e8a; 
+	border-bottom-style: inset;
+	width: 50%; 
+	display: flex;
+}
+.button{
+	width: 114px;
+	height: 51.4px; 
+}
+.background{
+	background-color: #19198a; 
+}
