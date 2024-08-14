@@ -3,7 +3,7 @@
 @media (max-height:1145px){
 }
 .title{
-	
+	color: #b45e8a; 
 }
 .textboxes{
 	background: #114514; 
@@ -21,6 +21,7 @@
 	width: 114px;
 	height: 51.4px; 
 	margin-bottom: 10px;
+	cursor: pointer; 
 }
 .background{
 	background: linear-gradient(
@@ -30,7 +31,7 @@
 	#b45e8a
 	);
 background-size: auto; 
-height: 784px; 
+height: 1080px; 
 }
 .card{
 	width: 500px; 
