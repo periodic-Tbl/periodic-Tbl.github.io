@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-
 .boxShadow {
-	-webkit-box-shadow: 6px 6px 12px 8px #b45e8a;
 	box-shadow: 6px 5px 14px 5px #000000;
 }
     body,td,th {
@@ -63,6 +61,8 @@
     animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+	color: aqua; 
+	margin: 5px; 
 }
 .easeinAnimObj {
 	position: relative;
