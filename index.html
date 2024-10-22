@@ -1,123 +1,265 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-        <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'">
-        <title>Site not found &middot;GitHub Pages</title>
-        <script>
-            function scare() {
-                let audio = document.getElementById("bgm")
-                audio.play()
-            }
-        </script>
-        <style type="text/css" media="screen">
-            body {
-                background-color: #f1f1f1;
-                margin: 0;
-                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            }
-
-            .container {
-                margin: 50px auto 40px auto;
-                width: 600px;
-                text-align: center;
-            }
-
-            a {
-                color: #4183c4;
-                text-decoration: none;
-            }
-
-            a:hover {
-                text-decoration: underline;
-            }
-
-            h1 {
-                width: 800px;
-                position: relative;
-                left: -100px;
-                letter-spacing: -1px;
-                line-height: 60px;
-                font-size: 60px;
-                font-weight: 100;
-                margin: 0px 0 50px 0;
-                text-shadow: 0 1px 0 #fff;
-            }
-
-            p {
-                color: rgba(0, 0, 0, 0.5);
-                margin: 20px 0;
-                line-height: 1.6;
-            }
-
-            ul {
-                list-style: none;
-                margin: 25px 0;
-                padding: 0;
-            }
-
-            li {
-                display: table-cell;
-                font-weight: bold;
-                width: 1%;
-            }
-
-            .logo {
-                display: inline-block;
-                margin-top: 35px;
-            }
-
-            .logo-img-2x {
-                display: none;
-            }
-
-            @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and ( min--moz-device-pixel-ratio: 2), only screen and ( -o-min-device-pixel-ratio: 2/1), only screen and ( min-device-pixel-ratio: 2), only screen and ( min-resolution: 192dpi), only screen and ( min-resolution: 2dppx) {
-                .logo-img-1x {
-                    display: none;
-                }
-
-                .logo-img-2x {
-                    display: inline-block;
-                }
-            }
-
-            #suggestions {
-                margin-top: 35px;
-                color: #ccc;
-            }
-
-            #suggestions a {
-                color: #666666;
-                font-weight: 200;
-                font-size: 14px;
-                margin: 0 10px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <audio src="audio/AuferstandenAusRuinen.mp3" controls loop id="bgm" onmousemove="scare()" hidden>Heil Hitler!</audio>
-            <h1>404</h1>
-            <p>
-                <strong>There isn't a GitHub Pages site here.</strong>
-            </p>
-            <p>
-                If you're trying to publish one,
-        <a href="https://www.bilibili.com/video/BV1uT4y1P7CX/?vd_source=8a24fb3849508e43b2d4b99df77953db">read the full documentation</a>
-                to learn how to set up <strong>GitHub Pages</strong>
-                for your repository, organization, or user account.
-      
-            </p>
-            <div id="suggestions">
-                <a href="https://www.bilibili.com/video/BV1uT4y1P7CX/?vd_source=8a24fb3849508e43b2d4b99df77953db">GitHub Status</a>
-                &mdash;<a href="https://www.bilibili.com/video/BV1uT4y1P7CX/?vd_source=8a24fb3849508e43b2d4b99df77953db">&nbsp;@githubstatus</a>
-            </div>
-            <a href="/" class="logo logo-img-1x">
-                <img width="32" height="32" title="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMTZCRDY3REIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMTZCRDY3RUIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdCQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjdDQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+SM9MCAAAA+5JREFUeNrEV11Ik1EY3s4+ddOp29Q5b0opCgKFsoKoi5Kg6CIhuwi6zLJLoYLopq4qsKKgi4i6CYIoU/q5iDAKs6syoS76IRWtyJ+p7cdt7sf1PGOD+e0c3dygAx/67ZzzPM95/877GYdHRg3ZjMXFxepQKNS6sLCwJxqNNuFpiMfjVs4ZjUa/pmmjeD6VlJS8NpvNT4QQ7mxwjSsJiEQim/1+/9lgMHgIr5ohuxG1WCw9Vqv1clFR0dCqBODElV6v90ogEDjGdYbVjXhpaendioqK07CIR7ZAqE49PT09BPL2PMgTByQGsYiZlQD4uMXtdr+JxWINhgINYhGT2MsKgMrm2dnZXgRXhaHAg5jEJodUAHxux4LudHJE9RdEdA+i3Juz7bGHe4mhE9FNrgwBCLirMFV9Okh5eflFh8PR5nK5nDabrR2BNJlKO0T35+Li4n4+/J+/JQCxhmu5h3uJoXNHPbmWZAHMshWB8l5/ipqammaAf0zPDDx1ONV3vurdidqwAQL+pEc8sLcAe1CCvQ3YHxIW8Pl85xSWNC1hADDIv0rIE/o4J0k3kww4xSlwIhcq3EFFOm7KN/hUGOQkt0CFa5WpNJlMvxBEz/IVQAxg/ZRZl9wiHA63yDYieM7DnLP5CiAGsC7I5sgtYKJGWe2A8seFqgFJrJjEPY1Cn3pJ8/9W1e5VWsFDTEmFrBcoDhZJEQkXuhICMyKpjhahqN21hRYATKfUOlDmkygrR4o4C0VOLGJKrOITKB4jijzdXygBKixyC5TDQdnk/Pz8qRw6oOWGlsTKGOQW6OH6FBWsyePxdOXLTgxiyebILZCjz+GLgMIKnXNzc49YMlcRdHXcSwxFVgTInQhC9G33UhNoJLuqq6t345p9y3eUy8OTk5PjAHuI9uo4b07FBaOhsu0A4Unc+T1TU1Nj3KsSSE5yJ65jqF2DDd8QqWYmAZrIM2VlZTdnZmb6AbpdV9V6ec9znf5Q7HjYumdRE0JOp3MjitO4SFa+cZz8Umqe3TCbSLvdfkR/kWDdNQl5InuTcysOcpFT35ZrbBxx4p3JAHlZVVW1D/634VRt+FvLBgK/v5LV9WS+10xMTEwtRw7XvqOL+e2Q8V3AYIOIAXQ26/heWVnZCVfcyKHg2CBgTpmPmjYM8l24GyaUHyaIh7XwfR9ErE8qHoDfn2LTNAVC0HX6MFcBIP8Bi+6F6cdW/DICkANRfx99fEYFQ7Nph5i/uQiA214gno7K+guhaiKg9gC62+M8eR7XsBsYJ4ilam60Fb7r7uAj8wFyuwM1oIOWgfmDy6RXEEQzJMPe23DXrVS7rtyD3Df8z/FPgAEAzWU5Ku59ZAUAAAAASUVORK5CYII=">
-            </a>
-            <a href="https://www.bilibili.com/video/BV1uT4y1P7CX/?vd_source=8a24fb3849508e43b2d4b99df77953db" class="logo logo-img-2x">
-                <img width="32" height="32" title="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEQUM1QkUxRUI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEQUM1QkUxRkI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdGQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjgwQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+hfPRaQAAB6lJREFUeNrsW2mM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">
-            </a>
+<meta charset="UTF-8">
+<html lang="en">
+<script>
+</script>
+<head>
+    <style>
+        @import url("css/homepage.css");
+    </style>
+    <title>zym114deu.org</title>
+    <link rel="icon" href="media/pic/Logo.png" type="image/x-icon">
+</head>
+<body>
+<div class="bgColor">
+    <div class="ease-in">
+        <div class="title" align="center">
+            <p>&nbsp;</p>
+            <h1>4世纪张怡谋电影无限公司®️</h1>
+            <h1>4th Century EmoZ Films Corporation Unlimited®️</h1>
         </div>
-    </body>
+        <div class="newsText">
+            <h2>The Reappearance of Director Zhang: New Dawn for EmoZ? </h2>
+            <p>Until very recently, Poop Seller discovered traces of long lost Director Zhang in the New West Building. This made members of the corporation happier than ever. Comrade Zhung even looked up for a lucky day to have a pilgramage to Director Zhang's office with core members of the corporation. The reappearance of Director Zhang has reignited our members' passion and we are again ready for JL. </p>
+            <h2>Initiation of Plan Spark: The most Unwanted Thing Happened</h2>
+            <p>Where Poop Seller found Director Zhang, she was in the D building, dedicated for 6th grade students. This meant that 8th graders are out of our concern and we'll have to initiate Plan Spark now,we don't know when this will end, but we still hope that we can, with our power, make SHSID great again! </p>
+        </div>
+        <big>
+            <nav style="margin: 10px" align="center">
+                <h3>网站引导</h3>
+                <h3>Site Navigation</h3>
+                <div style="width:120px; justify-self: center;">
+                    <div class="colorAbt">
+                        <a href="#about">简介 About</a></li>
+                    </div>
+                    <div class="colorPdc">
+                        <a href="#pdc">产品 Products</a></li>
+                    </div>
+                    <div class="colorHis">
+                        <a href="#his"><span>历史 History</span></a></li>
+                    </div>
+                </div>
+            </nav>
+        </big>
+        <div class="songs" align="center">
+            <h2>企业文化</h2>
+            <h2>Corporation Culture</h2>
+            <button>
+                <a href="https://www.bilibili.com/video/BV13E421K7jw/?spm_id_from=333.337.search-card.all.click&vd_source=8a24fb3849508e43b2d4b99df77953db">圣咏曲</a>
+            </button>
+            <button>
+                <a href="https://www.bilibili.com/video/BV1st4y1y79b/?spm_id_from=333.337.search-card.all.click&vd_source=8a24fb3849508e43b2d4b99df77953db">战歌</a>
+            </button>
+            <button>
+                <a href="https://www.bilibili.com/video/BV1R24y1a7gS/?spm_id_from=333.337.search-card.all.click&vd_source=8a24fb3849508e43b2d4b99df77953db">团歌</a>
+            </button>
+            <button>
+                <a href="https://www.bilibili.com/video/BV1wx411M7LH/?spm_id_from=333.337.search-card.all.click">进行曲</a>
+            </button>
+        </div>
+        <div align="center">
+            <img src="media/pic/Logo.png" alt="/">
+        </div>
+        <div align="center">
+            <h3>片头Starter</h3>
+            <video controls src="media/vid/高级片头.mp4" width="100%"></video>
+        </div>
+    </div>
+    <div align="center">
+        <p>我们的非遗</p>
+        <table width="100%" border="5.14">
+            <tbody>
+                <tr>
+                    <td>
+                        <p>老鄣同志所做的两段描写：</p> 
+                        <p>在张怡谋时代的鼎盛时期，百家争鸣，整活不断。放大到一次再普通不过的课堂也能看到生机勃勃的景象。在上课前的课间时间就可以看到张怡谋集团的同学们在403教室内等待上课。这时，可以看到狡猾的大气压偷偷摸摸地将作业塞入本该在晨会课之前交的数学作业堆里，而往往这样的举动会被个别其他的同学发现。果不其然，老鄣看到了这一举动，“公式法”组成的句子脱口而出：“你干什么了啦！这么晚交作业，出←去↓”。一听到有人使用这个句式，其他的同学立马围上来，一起对着目标“输出”：“就是，你干什么了啦，出去！” 即便如此，同学们还是默许了这位同学偷偷交作业，但是在人多的压力下，迟交的作业还是被放在了作业堆的顶上。这时，上课铃打响，同学们迅速回到自己的座位等待老师的到来。卖史的看到老师走到了门口，便大声宣布：“有请知名导演张怡谋入场！” 随后大家就一起鼓掌，欢迎走来的“总导演”。</p>
+                    </td>
+                    <td width="50%">
+                        此时， 403教室又进来了一位同学准备上数学课。这名同学便是卖史的。卖史的，本名白菜，来自八年级一一四班，是整个年级唯一一位出生在联合国的同学。他一走进来，便可以看到他挺拔的身姿，背后还背着一个标志的书包，包外面挂着一瓶嫩绿色的塑料水瓶。自从这个班开始上课，他就因为特点显著被任课老师誉为“大嗓门”。他一直保持着这个称号，直到他的同桌老鄣说“啊？”的音量超越了他，从此“大嗓门” 的称号不复存在。学年中期，他随老鄣与小零食把整个张怡谋集团发扬光大，创建了由十六位同学组成的“张怡谋后勤组”。为集团制作网站时，兢兢业业，融入多元文化，包含了多种文化中的元素，展示出了他作为一位领袖的包容心与格局。他苦心经营的网站界面没有金凌集团网站的高清，现代化，和精良，但是他加入了朴实但真切的宣传词，使用了准确的，真实的日期编写历史，更凭借了一己之力，创造了轰动一时的，围绕多元文化的宣传片头，为他的一片天地打下了坚实的地基。如果再给他一年时间，他的努力一定可以将奠基修建成光鲜亮丽的新世界，同学们也一定会快乐的在知识和学习社区的海洋中遨游。
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>老鄣同志所作的吉祥物，只有放在正版MC里管用</p>
+                        <img src="media/pic/newMascot.png" alt="/" width="50%">
+                    </td>
+                    <td>
+                        <p>张总导演的两幅画：</p>
+                        <img src="media/pic/Fish.jpg" alt="/" width="49%">
+                        <img src="media/pic/Chicken.jpg" alt="/" width="49%">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>LJH同志拍摄，以此赢得摄影组席位：</p>
+                        <img src="media/pic/record.jpg" alt="/" width="100%">
+                    </td>
+                    <td>
+                        <p>目前已知的最完整的公开会记录，由DHL同志记录，也以此赢得摄影组席位：</p>
+                        <video controls src="media/vid/完整记录.mp4" width="100%">gay</video>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>卖史的冒死缴获的一张“金币”：</p>
+                        <img src="media/pic/JLCoin.jpg" alt="/" width="100%">
+                    </td>
+                    <td>
+                        <p>小零食同志用塘市牌计算器弹奏的圣咏曲: </p>
+                        <audio controls src="media/aud/圣咏曲.wav">Heil</audio>
+                        <p>卖史的曾经制作的叙利亚版团歌（记得调小音量哦：））</p>
+                        <audio controls src="media/aud/AuferstandenAusRuinen.wav">Hitler!</audio>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        老鄣同志冒死拍摄下的金陵集团内部不雅画面：
+                        <video src="media/vid/gay.mp4">
+                            
+                        </video>
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Join Us</h1>
+        <button  class="join">
+            <a href="reg.html" class="jTxt">Sign Up to EmoZ</a>
+        </button>
+            
+    </div>
+</div>
+<div>
+    <div class="colorAbt" id="about">
+        <h2>简介About</h2>
+        <p>4世纪张怡谋电影无限公司，一家纯粹为了整活而创建的公司。We are 4th Century EmoZ Films Corporation Unlimited, a company created for pure fun. </p>
+        <p>我们崇尚德意志思想、支持马克思列宁主义。We assimilate Deutscher thinking, and we support Marxist-Leninist ideology. </p>
+        <p>现在播放的乐曲就可以解释一切. You can understand this from the audio that is playing right now. </p>
+        <audio controls autoplay loop src ="media/aud/AuferstandenAusRuinenNormal.wav">DDR</audio>
+        <p>没错，这是就是我们的团歌东德国歌。Exactly, this is our corporation anthem -- der Nationalhymn der DDR. </p>
+        <p>我们的圣咏曲是《义务为豪大大鸡排所作的广告歌》，因为其诙谐幽默的基调而被老鄣同志所欣赏同时作为宣传。Our Holy melody is "Deserved advertisement song for Hot Star Chicken", it is praised by comrade Zhung due to its lively and funny tone, at the same time great for advertising. </p>
+        <p>我们的战歌是魏玛共和国国歌《德意志高于一切》, 同时也包含德意志联邦共和国的国歌，在我们需要干劲时为我们提供了极大的精神支持，也在我们庆祝时营造了很好的氛围。Our battle charm is the anthem of the Weimar Republic "Das Lied der Deutschen", which also contains the current German anthem, it has provided much emotional support when we were having a hard time, and it created an appropriate atmosphere when we are celebrating. </p>
+        <p>我们的进行曲是《做个文明中国人》，因其逆天歌词和使用广泛度于10/8日录入我公司文化，虽然没有战歌宏伟高昂，但是我们依然很喜欢这首歌，并将其用于各种非正式场合。Our marching hymn is "Be a civilized Chinese". We like it due to its jinteresting content and its widespreadedness. Although not as epic as our battle charm, it is still popular and serves a similar function and used at all sorts of informal events</p>
+        <p>由于德三军歌《艾丽卡》过于危险，所以未曾使用。我们肯定没有私下里偷偷使用。Because the army song of the Third Reich "Erika" is too dangerous, it is not used in any type of publifications of our company. We totally never used it privately, totally. </p>
+        <p>我们拥有16人的全职团队为公司无私奉献。分别是: We have a team of 16 people that work day and night for the prosperity of our company, they are: </p>
+        <p>总导演Director: 张怡谋EmoZ，</p>
+        <p>导演助理Director Assisstant: 大气压Bar， </p>
+        <p>宣传部Advertisment group: 老鄣Comrade Zhung，卖史的PoopSeller，最佳辩手Best Debater，盘子Plate，</p>
+        <p>演员Actor：江城子 · 五十岁以上的密州，</p>
+        <p>剪辑Video Editing：卖史的Poop Seller，</p>
+        <p>快递员Package Deliverer：卖史的Poop Seller，</p>
+        <p>技术支持 Tech Support：凤梨酥 Pineapple Pie，卖史的Poop Seller</p>
+        <p>氛围 Environment: 小零食Comrade Snack。</p>
+        <p>摄影Camera: DHL, LJH, Comrade Zhung</p>
+        <p>主页维护Homepage Maintaineance：卖史的Poop Seller，</p>
+        <p>永森寺管理员admin of YongSen Temple：可爱捏Süßig</p>
+        <p>其余的虽然都是普通员工，但他们也对我公司有着不可磨灭的贡献。Although others are just normal workers, they play an unneglectable role in our development.  </p>
+    </div>
+    <div class="colorPdc" id="pdc">
+        <h2>产品Products</h2>
+        <h3>本公司主营电影制作与编导，快递，鸡排，和宗教活动 Our Company mainly does film making and directing, package delivery, chicken, and religious activities. </h3>
+        <h3>电影Films</h3>
+            <p>本公司的起家产业，主要由张怡谋总导演和剪辑师运营。The starter production of our company, ran by Director Zhang and Editor. </p>
+        <h3>快递Delivery</h3>
+            <p>剪辑师喜欢在业余时给宣传部的老鄣同志送书包以协助他的工作，发展到今天成为了公司旗下的KC速递™。Our Editor likes to deliver 老鄣, from the advertisemnet sector, his backpack to assist his work when poop seller is bored. And it made all the way today to KC Delivery™ within the Corporation. </p>
+        <h3>鸡排Chicken</h3>
+            <p>受到圣咏曲的影响，公司内部开始自发的贩卖鸡排，赚些外快，发展至今成立了开心鸡排集团™，同时致敬了开心麻花团队对我公司电影产业的影响。Deeply affected by our holy melody, many members of our company decided to sell chicken for a few extra funding, and got officially approved as an accepted business subject in May 2024, founding the Happy Chicken Group™, it also honors the impact of 开心麻花 to our company's film making industry. </p>
+        <h3>宗教活动Religious Activities</h3>
+            <p>由于小零食同志和大气压之间的一场小矛盾，两人都发现大气压的名字可以被直译成“永森寺”，而且都觉得这个名字不错。不久之后，永森寺就成立了，由喜欢敲木鱼的可爱捏管理。Due to a dispute between comrade Snack and Bar, both found out that Bar's name can directly tranlated into "YongSen Temple" in Chinese, and deemed it a good name. Soon after, YongSen Temple was founded and administrated by Süßig, who likes to bang on a wooden fish, a common symbol of Buddhism. </p>
+    </div>
+    <div class="colorHis" id="his">
+        <h2>历史History</h2>
+        <h4>史前时代Prehistoric Era:</h4>
+            <p>-团队内部人员互相结识Members of the Corporation met each other. </p>
+            <p>-凤梨酥同志发动“微积分运动”，主张进入全民微积分时代。Comrade Pineapple Pie initiated the "Calculus Campaign" and advocated for an era where Calculus dominates the society. </p>
+        <h4>2023/09/01：</h4>
+            <p>-梦开始的地方。The start of our dreams. </p>
+        <h5>2023/09/02-09/08: </h5>
+            <p>-开天辟地：Laying the Foundation</p>
+            <p>&nbsp; “狡猾的大气压” "Sly bar"</p>
+            <p>&nbsp; “嗓门大的卖史的” "Loud poop seller"</p>
+            <p>&nbsp; “啊？！” "What?!"</p>
+        <h4>2023/10-12:</h4>
+            <p>-发现气压跳题法。Discovers method Bar's Skipping</p>
+            <p>最佳辩手引入了辩氏定律，适用于所有种类的函数。Best Debater introduced Law of Deb, which works for any type of function. </p>
+            <p>小零食同志为了表达不满，爆出张怡谋集团的第一句口号“我！要！吃！饭！” Due to comrade Snack's disatisfaction, he accidentally created the first EmoZ slogan: "I! want! to! eat!"</p>
+            <p>辩氏定律：上加下减，左加右减。Law of Deb: plus when graph moves up, minus when down, plus when moving left, minus when left. </p>
+        <h4>2024/01-03：</h4>
+            <p>-创建口号“出→去↓”并沿用至今 Created slogan "Get→Out↓!" and is used forever onwards</p>
+            <p>-发现气压假设法。Discovered Bar's Assuming method. </p>
+            <p>-金凌集团迅速撅起，成为了一大威胁 JL Corporation rose quickly, becoming a big threat</p>
+            <p>-老鄣同志发现《豪大大鸡排》并将其作为圣咏曲 Comrade 老鄣 discovered the song "Hao Da Da Ji Pai" and used it as our holy melody</p>
+            <p>-两条震撼零食定律被同时发现，改变了我们在数学上的许多看法。Two groundbreaking Rules of Snack are discovered simultaneously, changing much of our current views on mathematics. </p>
+            <p>零食定律壹 First Rule of snack：4 = 21 零食定律贰 Second Rule of Snack: 解出方程后舍去正解 One should reject positive solutions after solving an equation. </p>
+        <h4>2024/04：</h4>
+            <p>-公司群成立，我们正式成为一大势力 Our company group chat was made and officially became a dominant power. </p>
+            <p>-发现凤梨积分法，并用其算出一5次函数的全部系数 Discovery of method Pineapple's Integralling and used it to get all coefficients of a 5th degree function. </p>
+            <p>小零食第三定律的发现打开了一个全新的数学领域。The discovery of a third Rule of Snack opened up a brand new field of mathematics</p>
+            <p>零食定律叁Third Rule of Snack: 解出方程后保留根号，比如±√9。Keep Radical symbol after solving an equation, like ±√9</p>
+        <h4>2024/05：</h4>
+            <p>-4世纪张怡谋电影无限公司®的Au争对手JL集团的decline，特此庆祝我们的撅（悲）起。Yimou Yimou über alles! Über alles in der Welt! </p> 
+            <p>4th Century EmoZ Films Corporation Unlimited's opponent JL Corporation experienced rapid decline, we hereby celebrate our rise. Yimou Yimou über alles! Über alles in der Welt! </p> 
+            <p>-Logo设计好了 Logo is now set</p>
+            <p>-创建旗下的开心鸡排集团™ Created "Happy Chicken Group™" within the main company</p>
+            <p>-零食瞪眼法被正式承认，在此之前其实早也被凤梨酥、老鄣等人使用过。The method of Snack's Staring is officially approved, althogh already used by many people. </p>
+            <p>-在试运营多月后，KC速递™正式成立于4世纪张艺谋电影无限公司®旗下 After months of practicing, KC Delivery™ is now founded within the main company</p>
+            <p>-与此同时，KC速递™准备开展老鄣以外的业务，服务整个班级，乃至全学校 At the same time, KC Delivery™ decided to broaden their service range beyond 老鄣 to the class, eventually even the school. </p>
+            <p>-KC速递™开始开展密送服务（指收件人浑然不知），KC密送™正式成为KC速递™的分公司。KC Delivery™ started sending secret packages (the receiver won't notice at all), KC Secret Delivery™ is founded aside KC Delivery™</p>
+            <p>-张怡谋总导演为我们作画两幅，被最佳辩手完美记录，小零食同志也将其临摹下来，以供瞻仰。Director Zhang drew us two masterpieces and is perfectly recorded by Best Debater, comrade Snack drew a copy of it as well for worshipping. </p>
+            <p>-发现气压方程法，并成功用其求解一复杂trignometry问题Discovery of method Bar's Equationing and used it to solve a complex trignometry question</p>
+            <p>-小零食同志以敏锐的洞察能力推断出了张怡谋总导演所作的画的深层含义——这有关物种的起源和进化，其内容之超前无人可以理解，经过长达1天的破译后才得出结论。Comrade Snack's intelligible mind discovered that the two drawings by Director Zhang is actually deeply connotated--it is about the origin of species and their evolutional path, it's contents were so superior and advanced that no one can understand them until after an entire day of intense discussion. </p>
+            <p>-5/21此网站成立并上架GitHub。This website is made and launched on GitHub. </p>
+            <p>-5/24为了自保，网站下架。For self-protection, this website is removed. </p>
+            <p>-5/27张怡谋总导演在开会时由于跳步严重被员工上谏，7分钟后张氏跳步法被正式承认。Because Director Zhang skipped multiple steps when having a meeting, she received advices from many students. 7 minutes later, the method of Zhang's Step-Skipping is officially recognized. </p>
+            <p>老鄣同志从海外归来，带回来了许多外国思想，对我公司造成了不小的影响。Comrade 老鄣 returned from overseas and brought back many foreign ideas, which made quite an impact on our company. </p>
+            <p>同时，由于老鄣的离开，KC速递™由于损失了唯一的客户开始入不敷出，濒临倒闭，万幸的是KC速递™苟延残喘到了老鄣归来，并得以延续。Meanwhile, due to 老鄣's absence, KC Delivery™ lost its only client and is starting to generate huge amounts of debt, bringing it to the verge of bankruptcy. Fortunately, 老鄣 returned in time to save the company. </p>
+            <p>-5/28发现鄣氏改题法。Discovered method Zhung's Modifying. </p>
+            <p>-在老鄣同志的号召下，全票通过了在班级中实行联合国投票制度。Under comrade 老鄣's propoganda, the entire class voted for applying UN voting system in class. </p>
+            <p>-5/31由于JL集团的过度宣传和不当宣传，CEO金凌被33号元素约谈，这对JL的士气造成了严重的打击。我方因为JL的过度宣传而无法执行任务，因祸得福、逃过一劫。Due to JL Corporation's over-advertising and inappropriate advertisments, their CEO JinLing is called by As for a talk, which greatly damaged JL Corporation. On the other hand, we are unable to do propoganda due to JL's over-advertising, and therefore escaped this catastrophe. </p>
+            <p>-6/3可爱捏零食角被发现，最佳辩手将其发扬光大。The Süßig-Snack triangle is discovered and built up upon by our best debater. </p>
+            <p>-6/6本网站择此吉日再次开放。We chose today to reopen our website! </p>
+            <p>我们还发现了伟大的零食第四定律，其内容足以颠覆数学界。We discovered the great fourth Rule of Snack, it's contents are enough to overthrow the modern mathematical realm. </p>
+            <p>零食第肆定律Forth Rule of Snack：10 = 9</p>
+            <p>-6/11小零食同志发现了一台塘市牌计算器（可以弹奏音乐），并用其演奏圣咏曲。卖史的用其弹出我们的战歌与团歌。Comrade Snack discovered a Down Calculator (which can be used as an instrument), and used it to play our holy melody. Poop Seller used it to play our battle charm and the Corporation anthem. </p>
+            <p>-6/13今天是最后一课，张怡谋集团成员首次也是唯一一次进行公开会公布此网站，并缴获了唯一一张“金凌币”，完美结束本学期。Today is the last class, and we published our website to our Director for the first and only time. We also obtained the first and only "JLCoin", ending this school year perfectly. </p>
+            <p>-6/18 一代张怡谋集团永远的淡出视野。The first generation EmoZ dims out of people's views. </p>
+        <h4>2024/07-08: </h4>
+            <p>-7/2 网站还能更新，各位集团成员都有责任Bruh, why are we still updating. </p>
+            <p>大气压同志在发现小零食同志精心制作的可爱捏图后，发动被动技能光速存图，卖史的戏称此为气压存图王。
+                When bar discovered beautifully made memes of Süßig by Comrade Snack, he immediately saved them, as Poop Seller described "initiated Bar's meme-saving". 
+            </p>
+            <p>-7/2 卖史的发现了小零食同志的（疑似）仅存同类并公之于众 Poop Seller discovered (possibly) the only few left that are of the same kind as Comrade Snack and published it. </p>
+            <p>同日，小零食同志也公开了自己珍藏数秒的凤梨酥同志同类，在生物学界掀起轩然大波。The same day, Comrade Snack published a photo of Pineapple Pie's same kind that he preserved for a whole decisecond, which made the entire field of biology astonished and shocked. </p>
+            <p>7/11 老鄣同志表演了一段管乐团必备技能，却被卖史的的的德意志脑脑补成Erika，且引起凤梨酥共鸣。Comrade Zhung performed a section of a must-have ability in the Wind Assemble, but poop Seller's Deutschen Gehirn thought it was actually Erika, Comrade Pineapple Pie auch. </p>
+            <p>当晚，凤梨酥同志造访了远在台湾省的正版豪大大鸡排，却因为没有在当地播放圣咏曲而遭到谴责。The same night, Comrade Pineapple pie visited the real hot Star Chicken in the province of Taiwan, but he was criticized for not playing the holy melody. </p>
+            <p>7/16 可爱捏同志发现了一人名叫Erika Peters, 震惊了整个张怡谋集团。Süßig discovered a person named Erika Peters, which shocked the entire Corporation. </p>
+            <p>7/20 在拖工了三个月之后，卖史的终于产出了最新的片头。After 3 months of procrastination, Poop Seller finally produced the new company starter. </p>
+            <p>7/25 老鄣同志与可爱捏、盘子等人造访集团的文化中心点维也纳，并计划于7月底进入德国境内 Comrade Zhung, along with plate and Süßig, arrived in the cultural center of our corporation Viena, and they planned to enter Deutschland by the end of July. </p>
+            <p>在此期间，卖史的一直充当着人肉翻译机，救老鄣于水火（指分不清男女厕所）During this time, Poop Seller had always srved as a human translator, and saved Comrade Zhung from a major disaster (he can't distinguish male and female toilets. )</p>
+            <p>8/1 老鄣同志终于成为全集团第二位/批踏足德意志联邦共和国的人Comrade Zhung's group became the second to ever set on the lands of Bundesrepublik Deutschland. </p>
+            <p>同日，老鄣发现了与张总导演重名的体操运动员张怡涵，举团上下无不惊叹于此。</p>
+            <p>8/6 老鄣同志再尝试过使用美国倒时差法倒欧洲时差时完全失败。Comrade Zhung decided to use the same method he used for American time difference removing(TDR) on European TDR and unsurprisingly failed. </p>
+            <p>8/13 学校发生了一次大规模政变，12和13班由于未知因素被解散，分叉到了其他班中。A major political change occured in our school. Class 12 and 13 were dismissed and put into other classes. </p>
+            <p>8/15 卖史的决定重写网站代码，并于当天完工。Poop Seller decided to completely rewrite the code of our website, and finished on the same day. </p>
+        <h4>2024/10: </h4>
+            <p>10/05 卖史的发现了《做个文明中国人》并将其作为我们的进行曲。Poop Seller discovered the song "be a civilized Chinese" and used it as our marching hymn. </p>
+            <p>10/10 今天卖史的在新西楼里闲逛时发现了张导演的踪迹，时隔4个月，张导演再次出现在了团员们面前，这令我们欣喜若狂。老鄣同志已经选好了黄道吉日去朝圣张怡谋。Poop Seller found traces of long lost EmoZ in the New West Building, EmoZ was again in view afteer 4 months of disappearance. Comrade Zhung already selected a lucky day to visit EmoZ </p>
+            <p>10/17 老鄣和卖史的钱去朝拜张艺谋，可没能找到导演真身，遂放弃。Comrade Zhung and Poop Seller went to see Director Zhang, but they failed. </p>
+            <h2>至此，由老鄣、卖史的、小零食、大气压等人领导的第一代张怡谋集团落幕。本网站将持续维护至暑假结束（我们还有很多计划），直到下一届学生上台，让新一代领导人让张怡谋集团再次发扬光大，为新八年级带来新的活力！
+            Here, we announce the closing of the first generation EmoZ lead by leaders of Comrade Zhung, Poop Seller, and Snack. The maintanance of this website will continue until the end of summer vacation, until the next generation of leaders come and keep our path of making EmoZ and SHSID great again! 
+        </h2>
+    </div>
+</div>
+<h1>
+<footer class="colorAbt">
+    <div>This website is sponsored by Adobe Dreamweaver, Adobe After Affects, Adobe Photoshop, GitHub pages, Visual Studio Code, Microsoft, MechRevo, and lastly, <div style="color:#b45e8a"> 4th Century EmoZ Films Corporation Unlimited. </div></div>      
+    <h1>最后，我要感谢所有张怡谋集团成员和张总导演的支持与帮助，没有他们整个网站也许就不会存在了。也感谢金凌集团对我公司创意和创作动力的帮助。</h1>
+    <h3>Last but not least, a big thanks to all the EmoZ crew and the support of Director Zhang, none of this would be possible without their approval and help. Another thank you to JL Corporation for giving us the ideas and maintaining our creation enthusiasm. 
+    谢谢 Thank you. And (probably) the only German words in this entire website: Danke Schön! </h3>
+</footer>
+</h1>
+    <span>As the creator of this website, I will keep everything anonymous to prevent a similar destiny like JL Corporation. </span>
+</body>
 </html>

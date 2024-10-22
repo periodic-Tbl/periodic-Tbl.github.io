@@ -1,0 +1,66 @@
+@media (max-width:1145px){
+}
+@media (max-height:1145px){
+}
+
+*{
+	font-family: Segoe, "Trebuchet MS", Verdana, "sans-serif"; 
+}
+a{
+	text-decoration: none; 
+}
+a:hover{
+	text-decoration: underline; 
+	color: #b45e8a; 
+}
+.title{
+	color: rgba(114, 514, 191, 0.981); 
+}
+.textboxes{
+	background: transparent; 
+	align-items: center; 
+	outline: none; 
+	border: none; 
+	border-bottom: thin; 
+	border-bottom-color: #b45e8a; 
+	border-bottom-style: inset;
+	width: 50%; 
+	height: 21.4px; 
+	margin: 31.4px 0px 30px 0px;  
+}
+.textboxes:focus{
+	border-bottom-color: #19198a; 
+}
+.hint{
+	font-size: 15px; 
+	margin: 21.4px 150px -30px 0px; 
+	color: rgba(100,100,100,0.514); 
+}
+.button{
+	width: 114px;
+	height: 51.4px; 
+	margin-bottom: 5px;
+	cursor: pointer; 
+	background-color: rgba(255, 255, 255, 0.114); 
+	border: 0px; 
+	font-weight: 500px; 
+	font-size: 15px; 
+}
+.background{
+	background: linear-gradient(
+	114deg, 
+	#19198a, 
+	#114514, 
+	#b45e8a
+	);
+background-size: auto; 
+height: 900px; 
+}
+.card{
+	width: 500px; 
+	box-shadow: 0px 0px 8px 5px rgba(11, 45, 14, 0.514);
+	margin: auto; 
+	margin-top: 10px; 
+	align-self: center; 
+	border-radius: 5%; 
+}
