@@ -33,6 +33,7 @@
     }
 }
 .newsText {
+    padding: 10px; 
     animation: news 5s;
     animation-delay: 0ms;
     animation-iteration-count: infinite;
@@ -55,15 +56,18 @@
     animation-direction: alternate;
 }
 .colorAbt{
+    padding: 5px; 
     color: white; 
     background-color: black;
 
 }
 .colorPdc{
+    padding: 5px;
     background-color: red;
 
 }
 .colorHis{
+    padding: 5px; 
     background-color: gold;
 }
 .songs{
